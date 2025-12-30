@@ -144,7 +144,7 @@ const router = createRouter({
         {
           path: 'logs',
           name: 'logs',
-          component: () => import('../views/Admin/Logs/index.vue')
+          component: () => import('../views/Admin/Log/index.vue')
         },
         {
           path: 'dns',
